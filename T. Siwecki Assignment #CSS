@@ -1,0 +1,30 @@
+/* Global */
+h1,h2{
+    font-family: Indie Flower, cursive, bold;
+}
+
+p{
+    background-size: cover;
+    background-color: rgba(231, 109, 8, 0.815);
+    color:rgb(238, 232, 231);
+    font-family:Indie Flower, cursive;
+    font-size:1.1rem;
+    line-height:2;
+    margin-top:1rem;
+}
+
+body,main{
+    background-position: center center;
+    background-color: darkblue;
+    color: gold;
+    text-align:center;
+    height:40vh;
+}
+title{
+    margin:top 2rem;
+    font:size 1.5rem;
+}
+h1,h2{
+    padding-top:2rem;
+    font-size:2.5rem;
+}

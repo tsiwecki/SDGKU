@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSDI 103: Assignment 1</title> 
+    <link name="script.js"></link>
+    
+</head>
+<body>
+    
+    <h1>FSDI 103: Assignment 1</h1>
+    
+    <pre>
+
+        <script>
+            document.writeln('Thad'); 
+            document.writeln('Siwecki');
+            document.writeln('tsiwecki12345');
+            document.writeln('thad.siwecki@gmail.com');
+            document.writeln(57);
+            document.writeln('USA');
+            document.writeln('Married');
+        </script> 
+
+    </pre> 
+
+    <p>Click the button to get a time-based greeting:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var greeting;
+  var time = new Date().getHours();
+  if (time < 10) {
+    greeting = "Good morning";
+  } else if (time < 20) {
+    greeting = "Good day";
+  } else {
+    greeting = "Good evening";
+  }
+  document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

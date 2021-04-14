@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="preconnect" href="https://fonts.gstatic.com"></link> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>National Geographic</title>
+</head>
+   
+<body>
+    
+    <nav class="menu">
+        <img src="img/NGimage1.png" alt:="National Geographic Image">
+        <a href="#" class="ng-btn">National <br>Geographic</a>            
+        
+        <div class="links">
+            <a href="#"><b>Login</b></a>
+            <i class="fas fa-search"></i>
+            <a class="renew-btn" href="#">Renew</a>
+            <a href="#" class="subscribe-btn">Subscribe</a>
+            <a href="#"><p class="menu-btn">Menu</p><i class="fas fa-angle-double-down"></i></a>
+            
+            </div>
+        </div>
+        
+    </nav>
+    
+    <header class="site-header">
+        <h1>Latest Stories</h1>
+        <p><span>Subscribe</span> for full access to read stories from National Geographic.</p>
+        
+    </header>
+
+    <div class="div-line"></div>
+
+    <div class="header-container">
+    <div class="main-news">
+        <div class="primary-news">
+        <img src="img/NG 1.png" alt="Chinas Exotic Farms">
+            <div class="primary-news-text">
+                <h4>Animals</h4>
+                <h2>China's exotic farms may be missing link behind the pandemic</h2>
+                <p class="read-text"><i class="fas fa-bars"></i>Read</p>
+            </div>
+        </div>
+        
+    <div class="secondary-news-container">
+        <div class="secondary-news">
+            <img src="img/NG 2.png" alt="Egytian Art Sculpure">
+            <div class="secondary-text">
+                <h4>History Magazine</h4>
+                <p class="news-title">From cats to cows to crocodiles, ancient Egytians worshipped many small gods</p>
+                <P class="read-text"><i class="fas fa-bars"></i>Read</P>
+            </div>
+        </div>
+            
+        <div class="secondary-news">
+            <img src="img/NG 3.png" alt="Ancient Villa">
+            <div class="secondary-text">
+                <h4>Travel</h4>
+                <p class="news-title">Buried by Vesuvius, this ancient villa is an over looked alternative</p>
+                <P class="read-text"><i class="fas fa-bars"></i>Read</P>
+                </div>
+            </div>
+        </div><!--secondary-news-container-->   
+    </div>
+    
+    <div class="pick-section">
+        <h2><b>Today's Picks</b></h2>
+    
+        <div class="pick">
+            <img src="img/Coronavirus.png" alt="coronavirus">        
+        <div class="pick-text">
+          <p>Update on the <br>coronavirus pandemic</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->
+        
+        <div class="pick">
+            <img src="img/WomensHistoryMonth.png" alt="Nat Geo proudly celebrates Women's History Month">        
+        <div class="pick-text">
+          <p>Nat Geo proudly <br>celebrates Women's <br>History Month</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->
+
+        <div class="pick">
+        <img src="img/History&Culture.png" alt="History and Culture">        
+        <div class="pick-text">
+            <h3>History & Culture</h3>
+            <p>How Queen Victoria <br>remade the British <br>monarchy</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->
+
+        <div class="pick">
+        <img src="img/science.png" alt="Science">        
+        <div class="pick-text">
+            <h3>Science</h3>
+            <p>430,000 years ago a <br>meteor exploded over <br>Antactica, leaving clues</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->
+
+        <div class="pick">
+        <img src="img/Science2.png" alt="Science-2">        
+        <div class="pick-text">
+            <h3>Science</h3>
+            <p>Bones evolved to act like <br>batteries, 400-million-<br>year-old fish suggestc</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->
+    
+        <div class="pick">
+        <img src="img/History and Culture 2.png" alt="History-and-Culture-2">        
+        <div class="pick-text">
+            <h3>History & Culture</h3>
+            <p>1800-year-old chain armor<br> reconstructed using video <br> game tech</p>
+        </div><!--picks-text ends-->
+    </div><!--pick ends-->  
+</div><!--.picks-container-->
+</div><!--header-container-->
+
+<!--part two-->
+<div class="mission">
+<section class="section-two">
+    <h2>The National Geographic Society Mission</h2>
+   
+    <div class="div-line"></div>
+    
+    <div class="grid-container">
+        <div class="img-section">
+        <img src="img/Diver1.png" alt="NG Society-Mission"
+        style="float:left;width:30rem;height:100%;">
+    </div>
+    <div class="text-section">
+        <h3>National Geographic's nonprofit work</h3>
+        <br>
+        <p>The National Geographic Society invests in innovative leaders in science, exploration, education and storytelling to illuminate and protect the wonder of the world.</p>
+        <br>
+        <button class="more-btn">Learn More</button>
+    </div>
+</div><!--.grid-container-->
+</div><!--section-two div ends-->
+</section>
+<!--part two ends-->
+
+<!--part 3-->
+<div class="inbox">
+<section class="section-three">
+           
+    <div class="grid-container3">
+        <div class="img-section-three">
+
+
+            <br>
+            <h1>THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h1>
+            <br>            
+            <h2>Sign up for more inspiring photos, stories, and special offers from National Geographic.</h2>
+            <br>
+            <h3>Email Address</h23
+            <form class="subscribe" style="width: 100%;">
+                <input type="text" class="subscribe-input" placeholder="Enter your email" style="width: 30%; height: 50px; color: white; font-size: 14px; font-family: Verdana, Geneva, Tahoma, sans-serif ; padding: 6px; border: 2px solid white; outline-width: 5px; border-color: red; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;" /> 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4>&emsp;Yes! I would like to receive updates, special offers, and other information from National Geographic and The Walt Disney Family of Companies. By creating an account, I agree to the Terms of Use and acknowledge that I have read the Privacy Policy and California Privacy Notice.</h4>
+            <button class="signup-btn">Sign Up</button>
+                
+            <img src="img/NGOmossforrest.jpg" alt="moss-forrest">
+            
+        </div>
+    <div class="text-section-one">
+        
+        
+      
+    </div>
+</div><!--.grid-container-->
+</div><!--section-one div ends-->
+</section>
+<!--part three ends-->
+
+
+
+</body>
+</html>

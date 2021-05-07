@@ -1,10 +1,9 @@
 
-
-h1{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+.nav{
+    background-color: #0d3dc2;
+    }
+    .nav .nav-item .nav-link{
+        color: white;
 }
 
 h2{

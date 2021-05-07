@@ -5,6 +5,10 @@ background-color: #0d3dc2;
     color: white;
 }
 
+h2{
+    text-align: center;
+}
+
 #pets{
     display:grid;
     grid-template-columns: repeat(3,1fr);

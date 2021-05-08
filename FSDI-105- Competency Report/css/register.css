@@ -1,0 +1,63 @@
+body {
+    background-image: url('./img');
+    background-repeat: no-repeat;
+  }
+
+h1{
+    background-color: rgb(0, 17, 255);
+    color:white
+}
+
+h2{
+    font-weight: 800rem;
+    color:rgb(0, 17, 255);
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(0, 17, 255);
+    color:white;
+}
+
+
+
+.nav-link {
+    color: rgb(0, 17, 255);
+    transition-duration: 0.5s;
+}
+
+.nav-link:hover {
+    
+    color: white;
+}
+
+body {
+    background-image: url('../images/petpics1a.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+body {
+    min-height: 100vh;
+    background-image: white;
+    color:rgb(0, 17, 255);
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 8rem;
+
+}
+
+footer{
+    font-size: 0rem;
+    text-align: center;
+    color: rgb(0, 17, 255);
+}
+
+.copyright{
+    font-size: .5rem;
+    text-align: center;
+    color: rgb(150, 144, 144);
+}

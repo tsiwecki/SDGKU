@@ -1,0 +1,106 @@
+
+@{
+    ViewData["Title"] = "My Tasks"; 
+}
+
+
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/app.css" />
+
+<main class="container-fluid">
+      <!--start details-->
+      <section id="details">
+        <h3>Task Information</h3>
+
+        <div id="errorTitle" class="alert alert-danger hide" role="alert">
+          <b>ERROR:</b>Title cannot be empty
+        </div>
+
+        <div class="control">
+          <label>Title:</label>
+          <input id="txtTitle" type="text" class="form-control" />
+        </div>
+
+        <div class="control">
+          <label>Description:</label>
+          <textarea class="form-control" id="txtDesc" rows="4"></textarea>
+        </div>
+
+        <div class="control">
+          <label>Important:</label>
+          <i
+            id="icon-important"
+            class="far fa-star icon-imortant somethingElse"
+          ></i>
+        </div>
+
+        <div class="control">
+          <label>Due Date:</label>
+          <input id="txtDueDate" type="datetime-local" class="form-control" />
+          <div id="errorDueDate" class="alert alert-danger hide" role="alert">
+            <b>ERROR:</b>You Must Have a Due Date
+          </div>
+        </div>
+
+        <div class="control">
+          <label>Alert Text:</label>
+          <select id="selAlert" class="form-control">
+            <option value="" disabled selected>--- Select Alert ---</option>
+            <option value="1">Don't Forget To:</option>
+            <option value="2">Start:</option>
+            <option value="3">Stop:</option>
+            <option value="4">Don't Forget to Exercise:</option>
+            <option value="5">Take 15:</option>
+          </select>
+        </div>
+
+        <div class="control">
+          <label>Location:</label>
+          <input id="txtLocation" type="text" class="form-control" />
+        </div>
+
+        <div class="control">
+          <button id="btnSave" class="button Pill Button 1">Save Task</button>
+        </div>
+      </section>
+
+      <!--start task list-->
+      <section id="list">
+        <h3>Pending Task</h3>
+
+        <button id="btnDetails" class="button button3">
+          Hide or Show Your Task
+        </button>
+
+        <div id="tasksContainer" class="task-list">
+          <div class="task">
+            <p></p>
+          </div>
+
+          <div class="sec-title">
+            <h5></h5>
+            <p></p>
+          </div>
+
+          <div class="sec-date">
+            <label></label>
+          </div>
+
+          <div class="sec-location">
+            <label></label>
+          </div>
+
+          <!--displaying the tasks-->
+        </div>
+      </section>
+    </main>
+
+
+    <script src="/js/task.js"></script>
+    <script src="/js/app.js"></script>

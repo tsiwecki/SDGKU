@@ -1,0 +1,182 @@
+main {
+  display: flex;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hide {
+  display: none;
+}
+
+#details {
+  flex: 1;
+  color: blue;
+  background-color: beige;
+  box-shadow: 1px 10px rgb(231, 225, 220);
+  padding: 5px;
+}
+
+#details h3 {
+  color: blue;
+  background-color: rgb(231, 225, 220);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.control {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 10px 5px;
+}
+
+.control label {
+  font-size: 18px;
+  color: blue;
+}
+
+.control input {
+  font-size: 18px;
+}
+
+#icon-important {
+  font-size: 20px;
+  color: crimson;
+}
+
+#btnSave {
+  background-color: rgb(231, 225, 220);
+  border: none;
+  color: rgb(95, 95, 233);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#btnSave:hover {
+  background-color: #f1f1f1;
+}
+
+/* #icon-important.far {} */
+
+/* Task list */
+
+
+/* section 1 */
+#list {
+  flex: 2;
+  background-color: beige;
+  border: 1px solid #000;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 10px 5px;
+}
+
+#list h3 {
+  color: blue;
+  background-color: rgb(231, 225, 220);
+  text-align: center;
+  margin-top: 0.4rem;
+  
+}
+
+.task-list {
+  padding-right: 10px;
+  
+}
+
+.task {
+  background-color: beige;
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 4px;
+}
+
+.task .details {
+  font-size: 10px;
+  font-weight: 600;
+  color: red;
+  margin: 0;
+}
+
+.task #iDelete {
+  color: blue;
+  float: right;
+  cursor: pointer;
+}
+.task #iDelete:hover {
+  color: red;
+}
+
+.task #iDone {
+  color: rgb(80, 153, 78);
+  float: left;
+  cursor: pointer;
+}
+.task #iDone:hover {
+  color: rgb(255, 153, 0);
+}
+
+/* section 2 */
+
+.task .sec-2 {
+  flex: 5;
+  box-sizing: border-box;
+  background-color:rgb(231, 225, 220);
+  margin: 0;
+  padding: 0;
+  
+}
+
+.task .sec-title {
+  flex: 5;
+  color: rgb(52, 34, 214);
+  
+}
+
+.task .sec-title h5 {
+  text-align: center;
+  color:rgb(85, 84, 92);
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.task .sec-title p {
+  color:rgb(26, 24, 44);
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.task .sec-date {
+  color:rgb(26, 24, 44);
+  flex: 2;
+  float: right;
+  text-align: center;
+}
+.task .sec-location {
+  color:rgb(26, 24, 44);
+  flex: 3;
+}
+
+#btnDetails {
+  background-color: rgb(231, 225, 220);
+  border: none;
+  color: rgb(95, 95, 233);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#btnDetails:hover {
+  background-color: #f1f1f1;
+}
